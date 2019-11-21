@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70005" creator="Ipe 7.1.4">
+<info created="D:20151221150925" modified="D:20151223225507"/>
+<ipestyle name="basic">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<pen name="heavier" value="0.8"/>
+<pen name="fat" value="1.2"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="red" value="1 0 0"/>
+<color name="green" value="0 1 0"/>
+<color name="blue" value="0 0 1"/>
+<color name="yellow" value="1 1 0"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="gray" value="0.745"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<anglesize name="90 deg" value="90"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="black">
+-0.290525 842.632 m
+-0.290525 -0.991743 l
+596.28 -0.991743 l
+596.28 842.632 l
+h
+</path>
+<text matrix="1 0 0 1 -16 0" transformations="translations" pos="48 800" stroke="black" type="label" width="533.001" height="14.351" depth="1.99" valign="baseline">\parbox[t]{535pt}{\centerline{\huge\textbf{\underline{1. Introduction}}}}</text>
+<text transformations="translations" pos="32 768" stroke="black" type="label" width="144.977" height="8.305" depth="1.99" valign="baseline" size="10">\large\textbf{\underline{1.1 General introduction}}</text>
+<text matrix="1 0 0 1 -16 0" transformations="translations" pos="48 752" stroke="black" type="label" width="533.001" height="6.852" depth="61.78" valign="baseline" size="12">\parbox[t]{535pt}{\normalsize 
+\textbullet There are essentially two main features in the analysis of a control system:\\
+\hspace*{16pt}\textgreater Firstly, system modeling, which means expressing the physical system under examination in terms of a model, or models, which can be readily dealt with and understood. A model must be satisfactory in the way in which it expresses the characteristics of the original system.\\
+\hspace*{16pt}\textgreater The second feature of control systems analysis is the design stage, in which a suitable control strategy is both selected and implemented in order to achieve a desired system performance.
+}</text>
+<text matrix="1 0 0 1 0 -96" transformations="translations" pos="32 768" stroke="black" type="label" width="183.967" height="8.299" depth="4.32" valign="baseline" size="10">\large\textbf{\underline{1.2 A concise history of control}}</text>
+<text matrix="1 0 0 1 -16 -96" transformations="translations" pos="48 752" stroke="black" type="label" width="533.001" height="6.385" depth="430.92" valign="baseline" size="12">\parbox[t]{535pt}{\normalsize 
+\textbullet From 1767 to 1788, James Watt&apos;s fly-ball governor.\\
+\textbullet Around 1868, J. C. Maxwell developed a theoretical framework for such as governors by means of a differential equation analysis relating to performance of the overall sytem, thereby explaining in mathematical terms reasons for oscillations within the system. It was gradually found that Maxwell&apos;s governor equations were more widely applicable and could be used to describe phenomena in other systems, an example being piloting (steering) of ships. A common feature with the systems was the employment of information feedback in order to achieve a controlling action.\\
+\textbullet Rapid development in the field of automatic control took place in the 1920s and 1930s when connections were drawn with the closely related areas of communications and electronics. In the first instance (1920s) this was due to analysts such as Heaviside who developed the use of mathematical tools, provided over a century before by Laplace and Fourier, in the study of communication systems, in particular forming links with the decibel as a logarithmic unit of measurement. In the early 1930s Harry Nyquist, a physicist who had studied noise extensively, turned his attention to the problem of stability in repeater amplifiers. He successfully tackled the problem by making use of standard function theory, thereby stressing the importance of the phase, as well as the gain, characteristics of the amplifier. In 1934, a paper appeared by Hazen entitled &apos;Theory of servomechanisms&apos; and this appears to be the first use of the term ‘servomechanism’, which has become widely used as a name to describe many types of feedback control system.\\
+\textbullet The Second World War provided an ideal breeding ground for further developments in automatic control, particularly due to finance made available for improvements in the military domain. Examples of military projects of that time are radar tracking, anti-aircraft gun control and autopilots for aircraft; each of which requires tight performance achievements in terms of both speed and accuracy of response.\\
+\textbullet Since that time mechanization in many industries, e.g. manufacturing, process and power generation, has provided a stimulus for more recent developments. Originally, frequency response techniques such as Bode’s approach and Laplace transform methods were prominent, along with the root locus method proposed by Evans in the late 1950s. (Note: This was also known in the UK at one time as Westcott’s method of ?r lines.)\\
+\textbullet However, in the 1960s the influence of space flight was felt, with optimization and state-space techniques gaining in prominence. Digital control also became widespread due to computers, which were particularly relevant in the process control industries in which many variables must be measured and controlled, with a computer completing the feedback loop.\\
+\textbullet The 1970s saw further progress on the computer side with the introduction of microprocessors, thus allowing for the implementation of relatively complicated control techniques on one-off systems at low cost. The use of robot manipulators not simply for automating production lines but as intelligent workstations also considerably changed the requirements made of a control system in terms of speed and complexity. The need for high-speed control devices has in the 1980s been a contributing factor too and has made great use of hardware techniques, such as parallel processors, whereas at the same time ideas from the field of artificial intelligence have been employed in an attempt to
+cope with increased complexity needs. Finally the low cost and ease of availability of
+personal computers has meant that many control systems are designed and simulated
+from a software basis. Implementation, which may itself make use of a computer, is
+then only carried out when good control is assured.\\
+}</text>
+<text matrix="1 0 0 1 0 -560" transformations="translations" pos="32 768" stroke="black" type="label" width="128.207" height="8.299" depth="4.32" valign="baseline" size="10">\large\textbf{\underline{1.3 Open-loop control}}</text>
+<text matrix="1 0 0 1 -16 -560" transformations="translations" pos="48 752" stroke="black" type="label" width="533.001" height="6.815" depth="83.79" valign="baseline" size="12">\parbox[t]{535pt}{\normalsize 
+\textbullet An open-loop control system is one in which the control input to the system is not
+affected in any way by the output of the system.\\
+\textbullet Clearly the response of an open-loop system is dependent on the characteristics of the
+system itself in terms of the relationship between the system input and output signals. It
+is apparent therefore that if the system characteristics change at some time then both the
+response accuracy and repeatability can be severely impaired. In almost all cases
+however the open-loop system will present no problems insofar as stability is concerned, i.e. if an input is applied the output will not shoot off to infinity - it is not much use as
+an open-loop system if this is the case.\\
+}</text>
+<text matrix="1 0 0 1 0 -672" transformations="translations" pos="32 768" stroke="black" type="label" width="135.74" height="8.299" depth="4.32" valign="baseline" size="10">\large\textbf{\underline{1.4 Closed-loop control}}</text>
+<text matrix="1 0 0 1 -16 -672" transformations="translations" pos="48 752" stroke="black" type="label" width="533.001" height="6.866" depth="49.81" valign="baseline" size="12">\parbox[t]{535pt}{\normalsize 
+\textbullet In a closed-loop system the control input is affected by the system output. By using
+output information to affect in some way the control input of the system, feedback is
+being applied to that system.\\
+\textbullet It is often the case that the signal fed back from the system output is compared with a
+reference input signal, the result of this comparison (the difference) then being used to
+obtain the control or actuating system input. Such a closed-loop system is shown below, where the error = reference input - system output.
+}</text>
+</page>
+</ipe>

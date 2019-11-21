@@ -1,0 +1,13 @@
+\documentclass[a4paper,oneside,12pt]{report}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[domain=0:2]
+\draw[thick,color=gray,step=.5cm,
+dashed] (-0.5,-.5) grid (3,3);
+\draw[->] (-1,0) -- (3.5,0)
+node[below right] {$x$};
+\draw[->] (0,-1) -- (0,3.5)
+node[left] {$y$};
+\draw plot[id=x] function{x*x};
+\end{tikzpicture}
+\end{document}

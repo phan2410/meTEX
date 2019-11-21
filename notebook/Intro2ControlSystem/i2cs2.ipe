@@ -1,0 +1,467 @@
+<?xml version="1.0"?>
+<!DOCTYPE ipe SYSTEM "ipe.dtd">
+<ipe version="70005" creator="Ipe 7.1.4">
+<info created="D:20151221150925" modified="D:20151224002159"/>
+<ipestyle name="basic">
+<symbol name="arrow/arc(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/farc(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="mark/circle(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</symbol>
+<symbol name="mark/disk(sx)" transformations="translations">
+<path fill="sym-stroke">
+0.6 0 0 0.6 0 0 e
+</path>
+</symbol>
+<symbol name="mark/fdisk(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+0.5 0 0 0.5 0 0 e
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+0.6 0 0 0.6 0 0 e
+0.4 0 0 0.4 0 0 e
+</path>
+</group>
+</symbol>
+<symbol name="mark/box(sx)" transformations="translations">
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</symbol>
+<symbol name="mark/square(sx)" transformations="translations">
+<path fill="sym-stroke">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+</path>
+</symbol>
+<symbol name="mark/fsquare(sfx)" transformations="translations">
+<group>
+<path fill="sym-fill">
+-0.5 -0.5 m
+0.5 -0.5 l
+0.5 0.5 l
+-0.5 0.5 l
+h
+</path>
+<path fill="sym-stroke" fillrule="eofill">
+-0.6 -0.6 m
+0.6 -0.6 l
+0.6 0.6 l
+-0.6 0.6 l
+h
+-0.4 -0.4 m
+0.4 -0.4 l
+0.4 0.4 l
+-0.4 0.4 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="mark/cross(sx)" transformations="translations">
+<group>
+<path fill="sym-stroke">
+-0.43 -0.57 m
+0.57 0.43 l
+0.43 0.57 l
+-0.57 -0.43 l
+h
+</path>
+<path fill="sym-stroke">
+-0.43 0.57 m
+0.57 -0.43 l
+0.43 -0.57 l
+-0.57 0.43 l
+h
+</path>
+</group>
+</symbol>
+<symbol name="arrow/fnormal(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/pointed(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/fpointed(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-0.8 0 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/linear(spx)">
+<path stroke="sym-stroke" pen="sym-pen">
+-1 0.333 m
+0 0 l
+-1 -0.333 l
+</path>
+</symbol>
+<symbol name="arrow/fdouble(spx)">
+<path stroke="sym-stroke" fill="white" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<symbol name="arrow/double(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+-1 0 m
+-2 0.333 l
+-2 -0.333 l
+h
+</path>
+</symbol>
+<pen name="heavier" value="0.8"/>
+<pen name="fat" value="1.2"/>
+<pen name="ultrafat" value="2"/>
+<symbolsize name="large" value="5"/>
+<symbolsize name="small" value="2"/>
+<symbolsize name="tiny" value="1.1"/>
+<arrowsize name="large" value="10"/>
+<arrowsize name="small" value="5"/>
+<arrowsize name="tiny" value="3"/>
+<color name="red" value="1 0 0"/>
+<color name="green" value="0 1 0"/>
+<color name="blue" value="0 0 1"/>
+<color name="yellow" value="1 1 0"/>
+<color name="orange" value="1 0.647 0"/>
+<color name="gold" value="1 0.843 0"/>
+<color name="purple" value="0.627 0.125 0.941"/>
+<color name="gray" value="0.745"/>
+<color name="brown" value="0.647 0.165 0.165"/>
+<color name="navy" value="0 0 0.502"/>
+<color name="pink" value="1 0.753 0.796"/>
+<color name="seagreen" value="0.18 0.545 0.341"/>
+<color name="turquoise" value="0.251 0.878 0.816"/>
+<color name="violet" value="0.933 0.51 0.933"/>
+<color name="darkblue" value="0 0 0.545"/>
+<color name="darkcyan" value="0 0.545 0.545"/>
+<color name="darkgray" value="0.663"/>
+<color name="darkgreen" value="0 0.392 0"/>
+<color name="darkmagenta" value="0.545 0 0.545"/>
+<color name="darkorange" value="1 0.549 0"/>
+<color name="darkred" value="0.545 0 0"/>
+<color name="lightblue" value="0.678 0.847 0.902"/>
+<color name="lightcyan" value="0.878 1 1"/>
+<color name="lightgray" value="0.827"/>
+<color name="lightgreen" value="0.565 0.933 0.565"/>
+<color name="lightyellow" value="1 1 0.878"/>
+<dashstyle name="dashed" value="[4] 0"/>
+<dashstyle name="dotted" value="[1 3] 0"/>
+<dashstyle name="dash dotted" value="[4 2 1 2] 0"/>
+<dashstyle name="dash dot dotted" value="[4 2 1 2 1 2] 0"/>
+<textsize name="large" value="\large"/>
+<textsize name="small" value="\small"/>
+<textsize name="tiny" value="\tiny"/>
+<textsize name="Large" value="\Large"/>
+<textsize name="LARGE" value="\LARGE"/>
+<textsize name="huge" value="\huge"/>
+<textsize name="Huge" value="\Huge"/>
+<textsize name="footnote" value="\footnotesize"/>
+<textstyle name="center" begin="\begin{center}" end="\end{center}"/>
+<textstyle name="itemize" begin="\begin{itemize}" end="\end{itemize}"/>
+<textstyle name="item" begin="\begin{itemize}\item{}" end="\end{itemize}"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<anglesize name="90 deg" value="90"/>
+<anglesize name="60 deg" value="60"/>
+<anglesize name="45 deg" value="45"/>
+<anglesize name="30 deg" value="30"/>
+<anglesize name="22.5 deg" value="22.5"/>
+<tiling name="falling" angle="-60" step="4" width="1"/>
+<tiling name="rising" angle="30" step="4" width="1"/>
+</ipestyle>
+<page>
+<layer name="alpha"/>
+<view layers="alpha" active="alpha"/>
+<path layer="alpha" stroke="black">
+-0.290525 842.632 m
+-0.290525 -0.991743 l
+596.28 -0.991743 l
+596.28 842.632 l
+h
+</path>
+<text matrix="1 0 0 1 -16 -52" transformations="translations" pos="48 752" stroke="black" type="label" width="533.001" height="6.896" depth="25.87" valign="baseline" size="12">\parbox[t]{535pt}{\normalsize 
+\textbullet A disadvantage of feedback is related to where oscillations can occur in the system output, which would not occur if the system were connected in open-loop mode. The oscillations are due to the attempt to get the error signal to as low a magnitude as possible, even if this means swinging the output first one way and then the other.
+}</text>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier">
+8 0 0 8 88 800 e
+</path>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier">
+82.1386 805.652 m
+93.6135 794.46 l
+</path>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier">
+81.997 794.744 m
+93.8968 805.652 l
+</path>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier">
+82.8469 802.252 m
+82.8469 798.144 l
+</path>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier">
+81.2886 800.41 m
+84.6886 800.41 l
+</path>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier">
+86.1052 795.452 m
+89.5052 795.452 l
+</path>
+<text matrix="1 0 0 1 156 -20" transformations="translations" pos="44 808" stroke="black" type="label" width="47.821" height="6.911" depth="13.9" valign="baseline">\parbox[t]{48pt}{\normalsize\textbf{Reference\\Input}}</text>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier" arrow="normal/normal">
+24 800 m
+80 800 l
+</path>
+<text matrix="1 0 0 1 176 -16" transformations="translations" pos="100 804" stroke="black" type="label" width="27.411" height="6.835" depth="0" valign="baseline">\normalsize\textbf{Error}</text>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier" arrow="normal/normal">
+96 800 m
+132 800 l
+</path>
+<text matrix="1 0 0 1 180 -16" transformations="translations" pos="136 796" stroke="black" type="label" width="51.287" height="6.918" depth="0" valign="baseline">\normalsize\textbf{Controller}</text>
+<text matrix="1 0 0 1 176 -12" transformations="translations" pos="204 812" stroke="black" type="label" width="52.802" height="6.896" depth="25.87" valign="baseline">\parbox[t]{53pt}{\normalsize\textbf{Control or\\actuating\\input}}</text>
+<text matrix="1 0 0 1 176 -8" transformations="translations" pos="268 800" stroke="black" type="label" width="35.866" height="6.806" depth="23.94" valign="baseline">\parbox[t]{36pt}{\normalsize\textbf{System\\under\\control}}</text>
+<text matrix="1 0 0 1 168 -16" transformations="translations" pos="352 804" stroke="black" type="label" width="47.821" height="6.828" depth="13.9" valign="baseline">\parbox[t]{48pt}{\normalsize\textbf{System\\Output}}</text>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier">
+260 824 m
+260 776 l
+312 776 l
+312 824 l
+h
+</path>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier">
+132 824 m
+132 776 l
+200 776 l
+200 824 l
+h
+</path>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier" arrow="normal/normal">
+200 800 m
+260 800 l
+</path>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier" arrow="normal/normal">
+312 800 m
+392 800 l
+</path>
+<use matrix="1 0 0 1 176 -16" name="mark/disk(sx)" pos="328 800" size="large" stroke="black"/>
+<text matrix="1 0 0 1 176 -12" transformations="translations" pos="160 752" stroke="black" type="label" width="119.248" height="6.926" depth="1.93" valign="baseline">\normalsize\textbf{System output fed back}</text>
+<path matrix="1 0 0 1 176 -16" stroke="black" pen="heavier" arrow="normal/normal">
+328 800 m
+328 752 l
+88 752 l
+88 792 l
+</path>
+<text transformations="translations" pos="32 808" stroke="black" type="label" width="159.402" height="6.837" depth="73.75" valign="baseline">\parbox[t]{160pt}{\normalsize 
+\textbullet By means of the negative feedback loop shown here (the system
+output is subtracted from the reference input), the accuracy of the system output in
+relation to a desired value can be much improved when compared to the response of an
+open-loop system.
+}</text>
+<text matrix="1 0 0 1 0 4" transformations="translations" pos="32 720" stroke="black" type="label" width="533.001" height="6.904" depth="14.46" valign="baseline">\parbox[t]{535pt}{\normalsize
+This is simply because the purpose of the controller will most likely be to minimize the error between the actual system output and the desired (reference input)
+value.}</text>
+<text transformations="translations" pos="32 656" stroke="black" type="label" width="120.888" height="6.918" depth="0" valign="baseline">\normalsize\textbf{1.4.1 Effects of feedback}</text>
+<text transformations="translations" pos="32 640" stroke="black" type="label" width="533.001" height="6.801" depth="98.25" valign="baseline">\parbox[t]{535pt}{\normalsize
+\textbullet Open-loop systems rely entirely on calibration in order to perform with good accuracy;
+any system variations or effects caused by outside influences can seriously degrade this
+accuracy. Although only common in relatively simple systems, an important property is
+found in that an increase in system gain (amplification) does not affect the stability of an
+open-loop system (oscillations cannot be induced in this way).\\
+\textbullet Once feedback is applied, the system is in closed-loop. Closed-loop systems can
+achieve much greater accuracy than open-loop systems, although they rely entirely on
+the accuracy of the comparison between desired and actual output values and therefore
+on the accuracy of the measured output value. Effects of system variations or outside
+influences are much reduced, as are effects due to disturbances or nonlinear behavior.
+Unfortunately the advantages obtained when feedback is employed are at the expense of
+system stability (oscillations can often be induced by increasing system gain).
+}</text>
+<text matrix="1 0 0 1 0 -128" transformations="translations" pos="32 656" stroke="black" type="label" width="222.182" height="8.299" depth="4.32" valign="baseline">\large\textbf{\underline{1.5 Some examples of control systems}}</text>
+<text matrix="1 0 0 1 0 -160" transformations="translations" pos="32 656" stroke="black" type="label" width="231.352" height="8.299" depth="4.32" valign="baseline">\large\textbf{\underline{1.6 Definitions of standard terminology}}</text>
+<text matrix="1 0 0 1 -32 0" transformations="translations" pos="64 512" stroke="black" type="label" width="108.759" height="6.926" depth="1.93" valign="baseline">\normalsize page 8, 9, 10 in the book</text>
+<text matrix="1 0 0 1 296 28" transformations="translations" pos="80 464" stroke="black" type="label" width="5.556" height="4.289" depth="0" valign="baseline">$\mathbf{\nu}$</text>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier" arrow="normal/normal">
+80 464 m
+104 464 l
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier">
+8 0 0 8 112 464 e
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier">
+106.093 469.457 m
+117.753 458.45 l
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier">
+106.202 458.232 m
+117.971 469.566 l
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier">
+107.401 466.405 m
+107.401 461.829 l
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier">
+105.657 464.226 m
+109.363 464.226 l
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier">
+110.234 459.431 m
+114.266 459.431 l
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier" arrow="normal/normal">
+120 464 m
+144 464 l
+</path>
+<text matrix="1 0 0 1 292 20" transformations="translations" pos="152 464" stroke="black" type="label" width="8.786" height="6.835" depth="0" valign="baseline">$\mathbf{D}$</text>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier">
+144 476 m
+144 452 l
+168 452 l
+168 476 l
+h
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier" arrow="normal/normal">
+168 464 m
+192 464 l
+</path>
+<text matrix="1 0 0 1 292 28" transformations="translations" pos="200 456" stroke="black" type="label" width="9.008" height="6.835" depth="0" valign="baseline">$\mathbf{G}$</text>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier">
+192 476 m
+192 452 l
+216 452 l
+216 476 l
+h
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier" arrow="normal/normal">
+216 464 m
+264 464 l
+</path>
+<use matrix="1 0 0 1 292 24" name="mark/disk(sx)" pos="236 464" size="large" stroke="black"/>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier" arrow="normal/normal">
+236 464 m
+236 432 l
+192 432 l
+</path>
+<text matrix="1 0 0 1 292 28" transformations="translations" pos="176 424" stroke="black" type="label" width="8.966" height="6.835" depth="0" valign="baseline">$\mathbf{H}$</text>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier">
+168 444 m
+168 420 l
+192 420 l
+192 444 l
+h
+</path>
+<path matrix="1 0 0 1 292 24" stroke="black" pen="heavier" arrow="normal/normal">
+168 432 m
+112 432 l
+112 456 l
+</path>
+<text matrix="1 0 0 1 292 24" transformations="translations" pos="124 468" stroke="black" type="label" width="5.251" height="4.428" depth="0" valign="baseline">$\mathbf{e}$</text>
+<text matrix="1 0 0 1 292 24" transformations="translations" pos="172 468" stroke="black" type="label" width="6.365" height="4.428" depth="0" valign="baseline">$\mathbf{u}$</text>
+<text matrix="1 0 0 1 292 24" transformations="translations" pos="248 468" stroke="black" type="label" width="6.206" height="4.435" depth="1.93" valign="baseline">$\mathbf{y}$</text>
+<text transformations="translations" pos="32 480" stroke="black" type="label" width="338.73" height="6.881" depth="37.84" valign="baseline">\parbox[t]{340pt}{\normalsize
+1. Lower case letters refer to signals, e.g. voltage, speed; are functions of time.\\
+2. Capital letters denote signal magnitudes, as in the case of $u(t)=Ucos\omega t$, or otherwise Laplace transformed quantities, $U=U(s)$.\\
+3. The system under control is also known as the plant or process, $G$.
+}</text>
+<text transformations="translations" pos="32 432" stroke="black" type="label" width="533.001" height="6.411" depth="408.92" valign="baseline">\parbox[t]{535pt}{\normalsize
+4. The reference input $\nu$, also known as the set-point or desired output, is an external signal applied in order to indicate a desired steady value for the plant output.\\
+5. The system output $y$, also known as the controlled output, is the signal obtained from the plant which we wish to measure and control.\\
+6. The error signal $e$ is the difference between the desired system output and the actual system output (when $H=1$).\\
+7. The controller $D$ is the element which ensures that the appropriate control signal is
+applied to the plant. In many cases it takes the error signal as its input and provides
+an actuating signal as its output.\\
+8. The feedback element $H$ provides a multiplying factor on the output $y$ before a
+comparison is made with the reference input $\nu$. When $H\neq 1$ the error $e$ is the error between $\nu$ and $Hy$, i.e. it is no longer the error between $\nu$ and $y$.\\
+9. The feedback signal is the signal produced by the operation of $H$ on the output $y$.\\
+10. The control input $u$, also known as the actuating signal, control action or control
+signal, is applied to the plant $G$ and is provided by the controller $D$ operating on the
+error $e$.\\
+11. The forwardpath is the path from the error signal $e$ to the output $y$, and includes $D$
+and $G$.\\
+12. The feedback path is the path from the output $y$, through $H$.\\
+13. A disturbance, or noise (not shown here), is a signal which enters the system at
+a point other than the reference input and has the effect of undermining the normal
+system operation.\\
+14. A nonlinear system is one in which the principles of superposition do not apply, e.g.
+amplifier saturation at the extremes, or hysteresis effects. Almost all except the most
+simple systems are nonlinear in practice, to an extent at least. The vast majority of
+systems can however be dealt with by approximating the system with a linear model,
+at least over a specific range.\\
+15. A time-invariant system is one in which the characteristics of that system do not
+vary with respect to time. Most systems do vary slowly with respect to time, e.g.
+ageing, however over a short period they can be considered to be time-invariant.\\
+16. A continuous-time system is one in which the signals are all functions of time t, in
+an analog sense.\\
+17. A discrete-time system is a system such as a digital system or a sampled data system
+in which the signals, which consist of pulses, only have values at distinct time
+instants. The operator $z$ is used to define a discrete-time signal such that
+$z^3 y ( t )= y ( t+3 )$ means the value of signal $y ( t )$ at a point in time three periods in
+the future, where a sample period $T$ is defined separately for each system.\\
+18. A transducer converts one form of energy (signal) into another, e.g. pressure to voltage.\\
+19. Negative feedback is obtained when $e=\nu-Hy$.\\
+20. Positive feedback is obtained when $e=\nu+Hy$.\\
+21. A regulator is a control system in which the control objective is to minimize the
+variations in output signal, such variations being caused by disturbances, about a
+set-point mean value.\\
+\hspace*{16pt}Note: A regulator differs from a servomechanism in which the main purpose is to
+track a changeable reference input.\\
+22. A multivariable system is one which consists of several inputs and several outputs.
+}</text>
+</page>
+</ipe>

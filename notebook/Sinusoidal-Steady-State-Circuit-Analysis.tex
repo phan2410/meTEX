@@ -1,0 +1,87 @@
+\documentclass[a4paper,12pt,oneside]{report}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+%font=default,size 12pt
+%Configure page layout: a4, margin 1in, noheader, nofooter
+\paperwidth=8.26in
+\paperheight=11.69in
+\pagestyle{empty}
+\voffset=0in
+\hoffset=0in
+\oddsidemargin=0in
+\evensidemargin=0in
+\topmargin=0in
+\headheight=0in
+\headsep=0in
+\marginparsep=0in
+\marginparwidth=1in
+\footskip=0in
+\marginparpush=0in
+\textwidth=6.26in
+\textheight=9.69in
+%indent of a first line of new paragraphc is 1cm to use \indent or \par
+\parindent=1cm
+%set distance btw lines
+\baselineskip=0pt
+%set disctance btw pars
+\parskip=0pt
+%create a listing environment for arranging text
+%tree level 1: {\textbullet}{0in}{0in}{\parindent}
+%tree level 2: dependent :D
+\newenvironment{tree}[4]{
+\begin{list}{#1}{\parskip=0in \topsep=0in \itemsep=0in \parsep=0in \partopsep=0in \leftmargin=#2 \rightmargin=#3 \itemindent=#4 \listparindent=\itemindent}
+}{\end{list}}
+%creat a small section document :D
+\newenvironment{ssection}[3]{
+\framebox{\textbf{#1}} \textbf{#2}
+\begin{tree}{#3}{0in}{0in}{\parindent}
+}{\end{tree}}
+%fix other errors manually if needed: line break, etc.
+\begin{document} %SINUSOIDAL STEADY-STATE ANALYSIS
+\begin{center}
+{{\Huge \textbf{\emph{\underline{Sinusoidal Steady-State Analysis}}}}}\ \newline
+\end{center}
+\begin{ssection}{0}{Introduction}{{}}%Relation of this piece of knowledge to other concerned pieces
+\item This section will concentrate on the steady-state response of circuits driven by sinusoidal sources;and absolutely, the steady-state response will also be sinusoidal. A source that can be described by a periodic function can be replaced by an equivalent combination (Fourier series) of sinusoids; therefore, for a linear circuit, the assumption of a sinusoidal source represents no real restriction.
+\end{ssection}
+\begin{ssection}{1}{The Sinusoidal Time-Varying Source}{\textbullet}
+\item A sinusoidally time-varying voltage(or current) source (independent or dependent) produces a voltage(or current) that varies sinusoidally with time.
+\item A sinusoidal signal can be expressed with either the sine function or the cosine function. Throughout this section, the cosine function will be used.
+\item A sinusoidal voltage source $v(t)$ is given by $v(t)=\widehat{V}cos(\omega t+\phi)$, where $\widehat{V}$ is the amplitude, $\omega$ is the angular velocity, or angular frequency [rad/s], and $\phi$ is the phase angle [rad]. So, the period of the function $T=1/f=2\pi/\omega$ \ [s].
+\item Suppose there are two sinusoidal signal with the same angular frequency $\omega$:\newline \indent \qquad
+$f_{1}(t)=\widehat{F_{1}}cos(\omega t+\phi_{1})$, and\ $f_{2}(t)=\widehat{F_{2}}cos(\omega t+\phi_{2})$ \newline \indent
+\_The value $\Delta\phi_{12}=(\omega t+\phi_{1})-(\omega t+\phi_{2})=\phi_{1}-\phi_{2}$ is called the phase shift of the signal $f_{1}$ compared to the signal $f_{2}$.
+\begin{tree}{+}{2\parindent}{0in}{0in}
+\item If $\Delta\phi_{12}=0$, then we say $f_{1}$ and $f_{2}$ are in phase.
+\item If $\Delta\phi_{12}\neq 0$, then we say $f_{1}$ and $f_{2}$ are out of phase.
+\item If $\Delta\phi_{12}>0$, then we say $f_{1}$ leads $f_{2}$ by an advance of $\Delta\phi_{12}$, or by a phase angle of $\Delta\phi_{12}$.
+\item If $\Delta\phi_{12}<0$, then we say $f_{1}$ lags $f_{2}$ by a phase lag of $|\Delta\phi_{12}|$, or by a phase angle of $|\Delta\phi_{12}|$.
+\end{tree}
+\item Recall a concerned characteristic of a periodic function, which will be certainly applied to sinusoidal signals as well:
+\begin{tree}{{}}{\parindent}{0in}{0in}
+\item \_A periodic function $f(t)$, with a period $T$, has an average or mean value $F_{avg}$ given by \
+$F_{avg}=\displaystyle\frac{1}{T}\int_{t}^{t+T}{f(t)dt}=\frac{1}{T}\int_{0}^{T}{f(t)dt}=$ const \\ 
+\phantom{indent} $\rightarrow$ The mean value of a sinusoidal function is $0$.
+\item \_The rectified average value $F_{avg}$ of a periodic function $f(t)$ with a period $T$ is the mean value of the absolute value of the function,\\
+\centerline{$F_{avg}=\displaystyle\frac{1}{T}\int_{t}^{t+T}{|f(t)|dt}=\frac{1}{T}\int_{0}^{T}{|f(t)|dt}=$ const}
+\item \_The effective or rms value, which arises from the need to measure the effectiveness of a voltage or current source in delivering power to a resistive load, of a periodic function is defined as the square root of the mean value of the squared function. Therefore, for any periodic function $i(t)$ in general, the rms value of the function is given by\qquad $I_{rms}=\displaystyle\sqrt{\frac{1}{T}\int_{t}^{t+T}{i(t)^{2}dt}}=\sqrt{\frac{1}{T}\int_{0}^{T}{i(t)^{2}dt}}=$ const\\
+$\rightarrow$ Consider the average power absorbed in a period $T$ by the resistor through whom a sinusoidal current $i(t)$ passes in an ac circuit,\\
+\centerline{$P_{avg}=\displaystyle\frac{1}{T}\int_{0}^{T}{p(t)dt}=\frac{1}{T}\int_{0}^{T}{Ri(t)^{2}dt}=$ const}\\
+\phantom{$\rightarrow$} Based on the definition of the rms value, $I_{rms}^{2}=\displaystyle\frac{1}{T}\int_{0}^{T}{i(t)^{2}dt}$\\
+\phantom{$\rightarrow$}$=>$\space$RI_{rms}^{2}=\displaystyle\frac{1}{T}\int_{0}^{T}{Ri(t)^{2}dt}=P_{avg}$, is equivalent to the power absorbed by the resistor with a constant current $I_{rms}$ in a dc circuit. \\
+$\rightarrow$ The effective value of the voltage $V_{rms}$ is found in the same way.\\
+$\rightarrow$ For every sinusoidal function $v(t)=\widehat{V}cos(\omega t+\phi)$; $V_{rms}=\widehat{V}/\sqrt{2}$.
+\end{tree}
+\end{ssection}
+\begin{ssection}{2}{The Response Of A Sinusoidal Steady-State Circuit}{\textbullet}
+\item In general, voltage responses and current responses of an electric circuit are solutions of a corresponding system of  differential equations which are direct applications of Kirchhoff's laws. It's not easy in most cases to obtain the solutions by straightly solving this kind of systems. 
+\item However, for a circuit driven by a sinusoidally time-varying source, in a steady state, all voltages or currents vary sinusoidally with time at the same angular frequency as the source, mathematically typified by \\
+\indent\qquad$f(t)_{i}=\widehat{F_{i}}cos(\omega t+\phi_{i})=Re\{\widehat{F_{i}}\angle(\omega t+\phi_{i})\}=Re\{\widehat{F_{i}}e^{j(\omega t+\phi_{i})}\}$\\
+\indent\qquad\phantom{$f(t)_{i}=$}$=Re\{(\widehat{F_{i}}\angle(\phi_{i}))(\widehat{F_{i}}\angle(\omega t))\}=Re\{(\widehat{F_{i}}e^{j\phi_{i}})(\widehat{F_{i}}e^{j\omega t})\}$\\ \indent
+Therefore, at any given time, all signals are only different from each other in their amplitudes and in their phase angles; so, a phasor with the same amplitude and phase angle as a particular signal in the circuit represent the signal, for example, known $v(t)=\widehat{V}cos(\omega t+\phi_{v})$, $\rightarrow$ responsible phasor $\b{V}=\widehat{V}\angle \phi_{v}=\widehat{V}e^{j\phi_{v}}$.
+%incompleted 
+%rearrange sometimes
+%ok :D
+\item Based on this charateristic, solving directly the system of differential equations can be avoided, and, the solutions are obtained by calculation in terms of phasors, which are derived from correspondent sinusoidal signals. In particular, a sinusoidally time-varying signal will be now represented by a phasor with the same amplitude and phase angle, for example, given $v(t)=\widehat{V}cos(\omega t+\phi_{v})$, $=>$ phasor $\b{V}=\widehat{V}\angle \phi_{v}=\widehat{V}e^{j\phi_{v}}$.
+\end{ssection}
+\end{document}

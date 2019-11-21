@@ -1,0 +1,101 @@
+\documentclass[12pt,oneside]{report}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage{mathrsfs,amsmath}
+\usepackage[table]{xcolor}
+\newcommand{\gammabar}{\ensuremath\gamma\kern-0.88em-}
+%some decoration for black cell tabular
+\newcommand\BlackCell[1]{%
+  \multicolumn{1}{c}{\cellcolor{black}\textcolor{white}{#1}}
+}
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shapes}
+\usetikzlibrary{arrows}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,thick,inner sep=0pt,minimum size=17pt] (char) {#1};}}
+%creating fancy header and footer
+\fancyhf{}
+\lhead{VBA-Excel-UDF Manual}
+\rhead{\thepage}
+%font=default,size 12pt
+%Configure page layout: a4, margin 0.79in, onesided, indent 0.5in
+\paperwidth=8.27in
+\paperheight=11.69in
+\voffset=-0.21in
+\hoffset=-0.21in
+\oddsidemargin=0in
+\evensidemargin=0in
+\topmargin=-23pt
+\headheight=12pt
+\headsep=25pt
+\marginparsep=0in
+\marginparwidth=0in
+\footskip=30pt
+\marginparpush=0in
+\textwidth=6.69in
+\textheight=9.61in
+%indent of a first line of new paragraphc is 0.5in to use \indent or \par
+\parindent=0.5in
+%set distance btw lines
+\baselineskip=0pt
+%set disctance btw pars
+\parskip=0pt
+%create a listing environment for arranging text
+%tree level 1: {\textbullet}{0in}{0in}{\parindent}
+%tree level 2: dependent :D
+\newenvironment{tree}[6]{
+\begin{list}{#1}{\parskip=0in \topsep=#5 \itemsep=#6 \parsep=0in \partopsep=0in \leftmargin=#2 \rightmargin=#3 \itemindent=#4 \listparindent=\itemindent}
+}{\end{list}}
+%creat a small section document :D
+\newenvironment{ssection}[7]{
+\framebox{\textbf{#1}} \textbf{#2}
+\begin{tree}{#3}{#4}{#5}{\parindent}{#6}{#7}
+}{\end{tree}}
+%fix other errors manually if needed: line break, etc.
+\begin{document}
+%\thispagestyle{plain}
+\pagestyle{fancy}
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, 
+    text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{process} = [rectangle, draw, fill=blue!20, 
+    text width=5em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm,
+    minimum height=2em]
+\noindent
+%\begin{tabular}{c}
+%\BlackCell{\parbox{\textwidth}{}}\\
+%\BlackCell{\parbox{\textwidth}{\centerline{{\Large \textbf{\emph{VBA-Excel-UDF Manual}}}}}}\\
+%\BlackCell{\parbox{\textwidth}{}}\\
+%\end{tabular}
+%\hphantom{Phan Hoang An}\\
+%\ \\
+\begin{ssection}{ARTrkigUpdate()}{}{}{0in}{0in}{0pt}{0pt}
+\item
+\begin{tikzpicture}[node distance = 2cm, auto]
+    % Place nodes
+    \node [block] (init) {initialize model};
+    \node [cloud, left of=init] (expert) {expert};
+    \node [cloud, right of=init] (system) {system};
+    \node [block, below of=init] (identify) {identify candidate models};
+    \node [block, below of=identify] (evaluate) {evaluate candidate models};
+    \node [block, left of=evaluate, node distance=3cm] (update) {update model};
+    \node [decision, below of=evaluate] (decide) {is best candidate better?};
+    \node [block, below of=decide, node distance=3cm] (stop) {stop};
+    % Draw edges
+    \path [line] (init) -- (identify);
+    \path [line] (identify) -- (evaluate);
+    \path [line] (evaluate) -- (decide);
+    \path [line] (decide) -| node [near start] {yes} (update);
+    \path [line] (update) |- (identify);
+    \path [line] (decide) -- node {no}(stop);
+    \path [line,dashed] (expert) -- (init);
+    \path [line,dashed] (system) -- (init);
+    \path [line,dashed] (system) |- (evaluate);
+\end{tikzpicture}
+\end{ssection}
+\end{document}
